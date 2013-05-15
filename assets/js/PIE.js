@@ -88,7 +88,7 @@
 
 
 /*for IE : fix border radius, background gradient, text shadow*/
-$('.list-show li,.dropDownLayoutm,.input,.textarea,.btns,.btn-cancel').livequery(
+$('.list-show li,.dropDownLayoutm,.input,.textarea,.btns,.btn-cancel,.css3Fixed').livequery(
     function () {
         PIE.attach(this);
     },
