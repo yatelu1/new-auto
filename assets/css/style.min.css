@@ -305,7 +305,7 @@ body {
     padding: 20px 0 0 15px;
     margin: 0 0 30px 0;
 }
-
+.coverElList li,
 .periodicalElList li {
     float: left;
     background: url("../images/periodicalEl-bg.png") no-repeat;
@@ -313,16 +313,16 @@ body {
     height: 109px;
     margin: 0 8px 8px 0;
 }
-
+.coverEl .status,
 .periodicalEl .status {
     margin: 5px 0 0 0;
 }
-
+.coverEl .status .name,
 .periodicalEl .status .name {
     font-size: 14px;
     color: #9e9e9e;
 }
-
+.coverEl .status .pageNum,
 .periodicalEl .status .pageNum {
     color: #fff;
     background: #81ab34;
@@ -397,6 +397,50 @@ body {
 .periodicalFavList .status .msg {
     background-position: 0 -21px;
     float: right;
+}
+.periodicalCover {
+    margin-bottom: 20px;
+}
+.periodicalCoverLeft {
+    width: 762px;
+    height: 335px;
+    background: #fff;
+    border: 3px solid #ededed;
+    padding: 25px 0 0 30px;
+}
+.periodicalCoverLeft .coverTitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.periodicalCoverKeyWords {
+    width: 256px;
+    height: 325px;
+    background: #fff;
+    border: 3px solid #ededed;
+    padding: 35px 25px 0 25px;
+}
+.keyWordsTitle {
+    font-size: 14px;
+    background: url("../images/hot-icon.png") 0 0 no-repeat;
+    padding: 0 0 0 20px;
+    margin-bottom: 20px;
+}
+.keywordsList li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.coverEl {
+    width: 352px;
+    float: left;
+    height: 262px;
+    margin-right: 28px;
+}
+.periodicalCoverLeft .more {
+    text-align: right;
+    margin: 0 37px 0 0;
+}
+.periodicalCoverLeft .more a {
+    color: #bbb;
 }
 
 /*old*/
