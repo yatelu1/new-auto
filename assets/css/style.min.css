@@ -442,6 +442,37 @@ body {
 .periodicalCoverLeft .more a {
     color: #bbb;
 }
+.productListTop h2 {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    color: #333;
+    margin-right: 20px;
+}
+.productListTop .sequence {
+    float: left;
+    color: #333;
+    line-height: 26px;
+}
+.productListTop .sequence p {
+    font-size: 14px;
+    float: left;
+    margin-right: 5px;
+}
+.productListTop .sequenceList {
+    float: left;
+}
+.productListTop .sequenceList li {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+}
+.productListTop .sequenceList li a {
+    color: #333;
+}
+.productListTop .sequenceList li.selected a {
+    color:#fd2d2d ;
+}
 
 /*old*/
 .list-show li {
