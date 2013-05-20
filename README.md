@@ -6,4 +6,5 @@ new-auto
 
 5.15 update 第一张页面<br>
 5.17 update 封面<br>
-5.19 update 商品列表br>
+5.19 update 商品列表<br>
+5.20 update 玩物尚志列表<br>
