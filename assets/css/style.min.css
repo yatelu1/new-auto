@@ -507,7 +507,7 @@ body {
     background: #fff;
     border: 3px solid #ededed;
     padding: 12px 12px 0 12px;
-    margin-right: 4px;
+    margin: 0 4px 20px 0;
 }
 .wanwuEl .wanwuElImg {
     margin-top: 8px;
@@ -542,6 +542,62 @@ body {
 .wanwuEl .owner span a{
     color: #666;
     line-height: 28px;
+}
+.wanwuTop {
+    background: #fff;
+    border: 3px solid #ededed;
+    height: 105px;
+    width: 1120px;
+    margin: 20px 0 0 0;
+    padding: 10px 0 0 10px;
+}
+.wanwuTop .pic {
+    float: left;
+    margin: 0 15px 0 0;
+}
+.wanwuTop .pic img {
+    display: block;
+    border: 2px solid #FFFFFF;
+    box-shadow: 1px 1px 1px #E1E1E1;
+    width: 66px;
+    height: 66px;
+}
+.wanwuTop .pic .followed {
+    background: url(../images/followed-icon.png) 0 0 no-repeat;
+    width: 40px;
+    height: 19px;
+    margin: 5px 0 0 14px;
+}
+.wanwuTop .person-v .userName {
+    font-size: 16px;
+    margin: 8px 0;
+}
+.wanwuTop .person-v {
+    float: left;
+}
+.wanwuTop .person-v p a {
+    color: #666;
+    background: url(../images/master-icon.png) right center no-repeat;
+    padding-right: 36px;
+    margin-right: 10px;
+}
+.wanwuTop .person-v .time {
+    color: #999;
+}
+.wanwuTop .person-v .elements {
+    color: #666;
+    margin-top: 24px;
+}
+.wanwuTop .person-v .elements span {
+
+    margin-right: 5px;
+}
+.wanwuTop .stats {
+    float: right;
+    margin: 73px 20px 0 0;
+}
+.wanwuTop .stats span {
+    font-size: 14px;
 }
 /*old*/
 .list-show li {
