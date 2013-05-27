@@ -599,6 +599,20 @@ body {
 .wanwuTop .stats span {
     font-size: 14px;
 }
+.wanwuTitle h2 {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    color: #333;
+    margin-right: 20px;
+    line-height: 26px;
+}
+.wanwuTitle span {
+   margin-left: 20px;
+}
+.wanwuTitle a {
+    color: #333;
+}
 /*old*/
 .list-show li {
     float: left;
