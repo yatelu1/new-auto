@@ -794,6 +794,39 @@ body {
 .myMailDetail .content {
     width: 92%;
 }
+.totalCount {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.totalCount span {
+    color: #666;
+}
+.leaveMessage {
+    width: 600px;
+    margin-top: 50px;
+}
+.leaveMessage .content {
+    margin-left: 10px;
+}
+.leaveMessage .content textarea {
+    border: 1px solid #d2d2d2;
+    width: 470px;
+    height: 57px;
+    float: left;
+}
+.leaveMessage .content button {
+    background: url("../images/msg_send.jpg") 0 0 no-repeat;
+    width: 66px;
+    height: 59px;
+    border: none;
+    cursor: pointer;
+}
+.leaveMessage p.leftWords {
+    margin-bottom: 10px;
+}
+.leaveMessage p {
+    color: #666;
+}
 /*old*/
 .list-show li {
     float: left;
