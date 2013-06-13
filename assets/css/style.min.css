@@ -720,7 +720,7 @@ body {
 }
 .msgNav li {
     float: left;
-    font-size: 14px;
+    font-size: 16px;
     background: url(../images/msg_nav.jpg) right center no-repeat;
     padding-right: 15px;
     margin-right: 10px;
@@ -844,6 +844,51 @@ body {
 .sendMailR {
     width: 365px;
     margin-left: 20px;
+}
+.inputs {
+    height: 22px;
+}
+.setBasicTable td {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.setBasicTable .firstCol {
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+.setBasicTable .lastCol {
+    vertical-align: top;
+}
+.setBasicTable .infoTips {
+    padding: 0 0 0 10px;
+}
+.setBasicWrap {
+    margin: 20px 0 0 200px;
+}
+.setBasicTable .btnCol {
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+.setPwdWrap {
+    margin: 40px 0 0 370px;
+}
+.setVideo li {
+    float: left;
+    width: 225px;
+    color: #333;
+    margin: 0 28px 29px 0;
+}
+.setVideo li .infoVideo {
+    padding: 5px;
+}
+.setVideo li .infoVideo input {
+    margin: 0 10px 0 0;
+}
+.setVideoWrap .delAll {
+    margin: 0 auto;
+    width: 110px;
 }
 /*old*/
 .list-show li {

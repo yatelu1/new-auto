@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>index</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+<!--#include virtual="modules/head.html"-->
+<input type="hidden" id="current-page" value="index"/>
+
+<div class="main">
+    <!--#include virtual="modules/periodicalTop.html"-->
+    <div class="msgCon">
+        <ul class="msgNav clearfix">
+            <li><a href="#">基本信息</a></li>
+            <li class="selected">修改头像</li>
+            <li><a href="#">修改密码</a></li>
+            <li class="last"><a href="#">视频管理</a></li>
+        </ul>
+
+        <div class="msgDetail">
+            <div class="setBasicWrap">
+                <table class="setBasicTable">
+                    <tr>
+                        <td class="firstCol">昵称：</td>
+                        <td><input type="text" class="inputs"> <span class="infoTips">昵称只能修改一次哦</span></td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol">邮箱：</td>
+                        <td>ersdfsfz@163.com</td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol">个人博客：</td>
+                        <td><input type="text" class="inputs"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol">性别：</td>
+                        <td>
+                            <input type="radio" name="sex" id="female"> <label for="female">女</label>
+                            <input type="radio" name="sex" id="male"> <label for="male">男</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol">所在地：</td>
+                        <td>
+                            <select name="lo" id="">
+                                <option value="" selected>shanghai</option>
+                            </select>
+                            <select name="dis" id="">
+                                <option value="" selected>shanghai</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol lastCol">自我介绍：</td>
+                        <td>
+                            <textarea class="textarea">
+
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol"></td>
+                        <td class="btnCol">
+                            <a href="#" class="btns">确 定</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--#include virtual="modules/foot.html"-->
+
+</body>
+</html>

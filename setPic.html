@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>index</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+<!--#include virtual="modules/head.html"-->
+<input type="hidden" id="current-page" value="index"/>
+
+<div class="main">
+    <!--#include virtual="modules/periodicalTop.html"-->
+    <div class="msgCon">
+        <ul class="msgNav clearfix">
+            <li><a href="#">基本信息</a></li>
+            <li class="selected">修改头像</li>
+            <li><a href="#">修改密码</a></li>
+            <li class="last"><a href="#">视频管理</a></li>
+        </ul>
+
+        <div class="msgDetail">
+            <div class="setBasicWrap setPwdWrap">
+                <table class="setBasicTable">
+                    <tr>
+                        <td class="firstCol lastCol">当前头像：</td>
+                        <td><img src="assets/images/edit-img-el.jpg" width="120" height="120"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol">上传新头像：</td>
+                        <td><input type="file" class="inputs"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol"></td>
+                        <td>建议使用正方形的图片，支持JPG，GIF，PNG格式，100K以内。</td>
+                    </tr>
+                    <tr>
+                        <td class="firstCol"></td>
+                        <td class="btnCol">
+                            <a href="#" class="btns">确 定</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--#include virtual="modules/foot.html"-->
+
+</body>
+</html>
