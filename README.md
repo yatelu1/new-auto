@@ -16,3 +16,5 @@ new-auto
 6.7 update 本人视角-个人中心-信息-发信件页<br>
 6.9 update 生活在上海列表页<br>
 6.13 update 设置页面4张（附加）<br>
+6.20 update 商品详情页 生活在上海详细页<br>
+

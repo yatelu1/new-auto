@@ -74,6 +74,9 @@ a, a:hover {
 .ml5 {
     margin-left: 5px;
 }
+.mt5 {
+    margin-top: 5px;
+}
 
 .clearfix {
     zoom: 1;
@@ -845,7 +848,7 @@ body {
     width: 365px;
     margin-left: 20px;
 }
-<<<<<<< Updated upstream
+
 .inputs {
     height: 22px;
 }
@@ -890,7 +893,7 @@ body {
 .setVideoWrap .delAll {
     margin: 0 auto;
     width: 110px;
-=======
+}
 .videoWrap {
     padding: 15px;
     box-shadow: 0 0 10px #999;
@@ -909,9 +912,116 @@ body {
 .videoWrap .video-info .info {
     width: 80%;
 }
+.videoWrap .shareIt,
 .videoWrap .share {
     margin-bottom: 20px;
->>>>>>> Stashed changes
+}
+.videoWrap .shareIt i {
+    color: #666;
+    font-style: normal;
+    padding: 0 0 0 20px;
+    margin: 0 10px 0 0;
+}
+
+.videoWrap .shareIt .play {
+    background: url("../images/play-icon.png") 0 0 no-repeat;
+}
+
+.videoWrap .shareIt .msg {
+    background: url("../images/fav_icon.png") 0 -21px no-repeat;
+}
+.videoWrap .shareIt .fav {
+    background: url("../images/fav_icon.png") -29px 0 no-repeat;
+}
+.sameLikes {
+    color: #999;
+    margin: 5px 0;
+}
+.sameLikesImg {
+    margin-right: 5px;
+}
+.productsDetailCont {
+    margin-top: 20px;
+}
+.detailContL {
+    width: 620px;
+}
+.detailContL .leaveMessage {
+    width: 100%;
+    margin-top: 0;
+}
+.detailContL .leaveMessage textarea {
+    width: 540px;
+}
+.comments {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.comments .commentsTitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.comments .message .content .del,
+.comments .message .content .reply,
+.comments .message .content a.name {
+    color: #333;
+}
+.comments .message .content .words {
+    font-size: 14px;
+}
+.comments .message .content .del {
+    margin-left: 10px;
+}
+.comments .message .content {
+    width: 90%;
+}
+.detailContR {
+    width: 440px;
+}
+.mostFav {
+    margin-bottom: 20px;
+}
+.mostFav p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.mostFav li {
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.shopShare .title {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.shopShare .info {
+    margin: 10px 0 20px 0;
+}
+h2.guess {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.shopShareTable th {
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.shopShareTable th.lastCol {
+    width: 240px;
+}
+.shopShareTable td {
+    padding: 0 10px;
+    line-height: 28px;
+}
+.shopShareTable td.firstCol {
+    color: #0e6e0e;
+}
+.shopShareTable td.lastCol {
+    color: #6e0e3e;
 }
 /*old*/
 .list-show li {
@@ -1187,7 +1297,7 @@ body {
     font-size: 13px;
     color: #666;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .video-info .tags a,
@@ -1198,7 +1308,7 @@ body {
 }
 
 .video-info .tags {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .buyIt .btn {
