@@ -1023,6 +1023,42 @@ h2.guess {
 .shopShareTable td.lastCol {
     color: #6e0e3e;
 }
+.loginWrap .box {
+    float: left;
+    width: 425px;
+    height: 383px;
+    background: #fff;
+    border: 3px solid #ebebeb;
+    padding: 40px 40px 0 30px;
+    margin: 0 30px 0 0;
+    font-size: 16px;
+}
+.loginWrap .box h2 {
+    border-bottom: 1px dotted #ccc;
+    line-height: 26px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.loginWrap .box p {
+    margin: 10px 0;
+}
+.loginTable td {
+    color: #666;
+    padding: 10px 5px;
+}
+.loginTable td .inputs {
+    width: 190px;
+    height: 26px;
+    border: 1px solid #d2d2d2;
+}
+.loginTable td .forgetPwd {
+    color: #666;
+    font-size: 12px;
+}
+#agree {
+    vertical-align: middle;
+    margin-left: 10px;
+}
 /*old*/
 .list-show li {
     float: left;

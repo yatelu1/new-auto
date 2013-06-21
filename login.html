@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>index</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+<!--#include virtual="modules/head.html"-->
+<input type="hidden" id="current-page" value="index"/>
+
+<div class="main">
+    <div class="loginWrap clearfix">
+        <div class="box">
+            <h2>登录</h2>
+            <p>1.使用第三方帐号登录</p>
+            <a href="#"><img src="assets/images/qqAccount.png" alt=""></a>
+            <a href="#"><img src="assets/images/sinaAccount.png" alt=""></a>
+            <p>2.使用已注册的帐号登录</p>
+            <table class="loginTable">
+                <tr>
+                    <td><label for="username">昵称</label></td>
+                    <td><input type="text" id="username" class="inputs"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">密码</label></td>
+                    <td><input type="password" id="pwd" class="inputs"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="#" class="btns">登录</a> <a href="#" class="forgetPwd">忘记密码？</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="box">
+            <h2>注册</h2>
+
+            <table class="loginTable">
+                <tr>
+                    <td><label for="email">email</label></td>
+                    <td><input type="text" id="email" class="inputs"></td>
+                </tr>
+                <tr>
+                    <td><label for="jusername">昵称</label></td>
+                    <td><input type="text" id="jusername" class="inputs"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="jpwd">密码</label></td>
+                    <td><input type="password" id="jpwd" class="inputs"></td>
+                </tr>
+                <tr>
+                    <td><label>性别</label></td>
+                    <td>
+                        <input type="radio" name="sex" value="1" id="male"/>
+                        <label for="male">男</label>
+                        <input type="radio" name="sex" value="2" id="female"/>
+                        <label for="female">女</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <a href="#" class="btns">立即注册</a>
+                        <input type="checkbox" id="agree"/>
+                        <label for="agree" class="forgetPwd">我已阅读并同意《使用协议》</label></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--#include virtual="modules/foot.html"-->
+
+</body>
+</html>
