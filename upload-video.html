@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>index</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+<!--#include virtual="modules/head.html"-->
+<input type="hidden" id="current-page" value="index"/>
+
+<div class="main">
+    <div class="upload-block">
+        <form action="#">
+            <table class="upload-form">
+                <colgroup>
+                    <col width=500/>
+                    <col width=150/>
+                </colgroup>
+                <tr>
+                    <td><span class="form-title">上传视频文件：</span></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="type-file-box">
+                            <input name="fileField" type="file" id="fileField" class="type-file-file" size="28"/>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="form-info">（注意：上传的视频必须是*.avi,*.flv,*.mp4,*.mpg,*.mov,*.asf,*.3gp,*.f4v,*.wmv）</span>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><span class="form-title">完善信息：</span></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="input title" name="title"/></td>
+                    <td><span class="help-line">限20字</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="">选择同时发布V刊</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><textarea name="info" class="textarea info" id="info"></textarea></td>
+                    <td><span class="help-line">限120字</span></td>
+                </tr>
+                <tr>
+                    <td><span class="form-subtitle">选择视频分类：</span></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form_radio">
+                            <input type="checkbox" name="choice"/>
+                            <label>打扮</label>
+                        </div>
+                        <div class="form_radio">
+                            <input type="checkbox" name="choice"/>
+                            <label>居家</label>
+                        </div>
+                        <div class="form_radio">
+                            <input type="checkbox" name="choice"/>
+                            <label>数码</label>
+                        </div>
+                        <div class="form_radio">
+                            <input type="checkbox" name="choice"/>
+                            <label>户外运动</label>
+                        </div>
+                        <div class="form_radio">
+                            <input type="checkbox" name="choice"/>
+                            <label>办公</label>
+                        </div>
+                        <div class="form_radio">
+                            <input type="checkbox" name="choice"/>
+                            <label>玩具</label>
+                        </div>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="input link" name="link"/></td>
+                    <td><a class="btns" href="#">确定</a></td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="input tag" name="tag"/></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="tagsWrap">
+                        <span class="fl">抓取的标签</span>
+                        <ul class="tags fl clearfix">
+                            <li><a href="#">创意</a></li>
+                            <li><a href="#">手工</a></li>
+                            <li><a href="#">手工</a></li>
+                            <li><a href="#">手工</a></li>
+                            <li><a href="#">手工</a></li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button class="save">发布</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <div class="rules">
+            <h3>上传视频说明：</h3>
+
+            <p>1、视频格式要求：仅支持XXX、XXX、XXX格式的视频文件。</p>
+
+            <p>2、视频大小要求：请上传小于XXMB的视频文件。</p>
+
+            <p>3、视频内容要求：我们将对视频内容做严格审核，请不要上传涉及非法内容的视频。</p>
+        </div>
+    </div>
+</div>
+
+<!--#include virtual="modules/foot.html"-->
+<script type="text/javascript" src="assets/js/upload.js"></script>
+</body>
+</html>
