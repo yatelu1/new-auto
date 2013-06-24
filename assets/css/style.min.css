@@ -204,6 +204,55 @@ body {
     display: none;
     left: 0;
 }
+.dropDownLayout {
+    position: absolute;
+    width: 120px;
+    background: #fcfcfc;
+    left: -35px;
+    top: 20px;
+    box-shadow: 1px 1px 2px #333;
+    display: none;
+}
+
+.dropDownLayout li {
+    margin: 0;
+    width: 100%;
+}
+
+.dropDownLayout li.even {
+    background: #d6d6d6;
+}
+
+.dropDownLayout li.qqIcon a,
+.dropDownLayout li.sinaIcon a,
+.dropDownLayout li.aotuIcon a {
+    background: url("../images/login-icon.png") no-repeat;
+}
+
+.dropDownLayout li.qqIcon a {
+    background-position: -25px 8px;
+}
+
+.dropDownLayout li.sinaIcon a {
+    background-position: -8px -20px;
+}
+
+.dropDownLayout li.aotuIcon a {
+    background-position: 12px -51px;
+}
+
+.login li .dropDownLayout li a {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    padding: 0 0 0 30px;
+}
+
+.dropDownLayout li a:hover {
+    color: #333;
+}
 
 .foot-warp {
     background: url("../images/footer.png") repeat-x;
