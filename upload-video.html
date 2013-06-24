@@ -46,14 +46,16 @@
                 </tr>
                 <tr>
                     <td>
-                        <select>
-                            <option value="">选择同时发布V刊</option>
-                        </select>
+                        <a class="choose fl slide" href="javascript:;">选择同时发布V刊</a>
                     </td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td><textarea name="info" class="textarea info" id="info"></textarea></td>
+                    <td>
+                        <textarea iscn="1" position="0" length="140" class="PUB_TXT textarea info" name="content"></textarea>
+                        <a class="add_face" style="background-position:-2px -3px;" onclick="$.Show_Expression(this)" href="javascript:;">表情</a>
+                        <a style="background-position:-3px -615px;" onclick="$.At_Add(this)" href="javascript:;" class="add_at">@朋友</a>
+                    </td>
                     <td><span class="help-line">限120字</span></td>
                 </tr>
                 <tr>
@@ -93,6 +95,19 @@
                 <tr>
                     <td><input type="text" class="input link" name="link"/></td>
                     <td><a class="btns" href="#">确定</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="clearfix">
+                            <ul class="picList clearfix fl">
+                                <li><a href="#"><img src="assets/images/periodicalEl.png" width="100" height="100"></a></li>
+                                <li><a href="#"><img src="assets/images/periodicalEl.png" width="100" height="100"></a></li>
+                                <li><a href="#"><img src="assets/images/periodicalEl.png" width="100" height="100"></a></li>
+                            </ul>
+                            <a class="addPic" href="#">添加图片</a>
+                        </div>
+                    </td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td><input type="text" class="input tag" name="tag"/></td>

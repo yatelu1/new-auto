@@ -361,10 +361,10 @@ body {
 .periodicalFavList li {
     float: left;
     width: 275px;
-    height: 256px;
     background: #fff;
     border: 3px solid #ededed;
     margin: 0 4px 13px 0;
+    padding: 0 0 12px 0;
 }
 
 .periodicalFavList li .show-img {
@@ -399,10 +399,22 @@ body {
     margin: 20px 15px;
 }
 
+.periodicalFavList .comment,
 .periodicalFavList .status {
     margin: 0 15px;
 }
-
+.periodicalFavList .comment {
+    padding: 10px 0 0 0;
+    margin-top: 10px;
+    border-top:1px solid #dcdcdc;
+}
+.periodicalFavList .comment .pic {
+    margin-right: 10px;
+}
+.periodicalFavList .comment .infos {
+    color: #666;
+    line-height: 15px;
+}
 .periodicalFavList .status i {
     color: #666;
     font-style: normal;
@@ -905,9 +917,16 @@ body {
 }
 .videoWrap .video-info {
     width: 417px;
+    position: relative;
 }
-.videoWrap .video-info.markIt {
-    background: url("../images/markIt.jpg") right 0 no-repeat;
+.videoWrap .video-info .markIt {
+    background: url("../images/markIt.jpg") 0 0 no-repeat;
+    display: block;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 87px;
+    height: 87px;
 }
 .videoWrap .video-info .info {
     width: 80%;
@@ -1069,6 +1088,49 @@ h2.guess {
 }
 .tagsWrap .tags li a {
     color: #666;
+}
+.upload-form .choose {
+    display: inline-block;
+    width: 115px;
+    height: 23px;
+    line-height: 23px;
+    color: #666;
+    background: url("../images/choose.png") 0 0 no-repeat;
+    padding: 0 0 0 10px;
+}
+.upload-form .add_face,
+.upload-form .add_at {
+    color: #bababa;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.picList li,
+.addPic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+.addPic {
+    display: block;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    line-height: 100px;
+}
+
+.upload-form .lb_hd {
+    border-bottom: 1px solid #ccc;
+}
+
+.upload-form .lb_tab li.c {
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.upload-form .lb_tab a {
+    color: #ccc;
 }
 /*old*/
 .list-show li {
@@ -1328,6 +1390,7 @@ h2.guess {
 .whoShare p {
     line-height: 22px;
     color: #999;
+    padding-right: 80px;
 }
 
 .whoShare p a {
